@@ -1,0 +1,1092 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: gabriela;
+    src: url(font/Gabriela-Regular.ttf);
+}
+@font-face{
+    font-family: letra2;
+    src:url(font/MochiyPopPOne-Regular.ttf)
+}
+body>header{
+    padding-inline: 2.5em;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 7em;
+    background-image: url(img/fondo\ azul.jpg);
+    font-size: 1.5em;
+    font-family: letra2;
+}
+nav .logo{
+    width: 18%;
+    height: 100%;
+}
+
+nav ul{
+    
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.inicio{
+    padding: 3em;
+    color: white;
+}
+.qsomos{
+    padding: 3em;
+    color: white;
+}
+.historia{
+    padding: 3em;
+    color: white;
+}
+.galeria{
+    padding: 3em;
+    color: white;
+}
+
+header h4{
+    font-size: 1.5em;
+}
+header{
+    padding-top: 4em;
+    padding-bottom: 10em;
+}
+.header1{
+    width: 100%;
+    text-align: center;
+}
+.banner{
+    font-family: gabriela;
+    color: white;
+    border-radius: 20px;
+    width:100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-image: url(img/imagenprincipal.png);
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#myElement{
+    font-size: 35px;
+    letter-spacing: 1.5em;
+    transform: rotate(5.5deg);
+}
+
+.sec1{
+    background-image: url(img/sec1.png);
+    background-size: cover;
+    padding: 6em;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.sec1 h1{
+    font-family: letra2;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    font-size: 5em;
+}
+
+.sec1 p{
+    font-family: gabriela;
+    font-size: 3em;
+    width: 110%;
+}
+
+.sec2{
+    font-family: letra2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 90%;
+    
+    color: darkgoldenrod;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr ;
+    grid-template-rows: 0.5fr 0.5fr;
+    font-size: 1.4em;
+    text-align: center;
+    border-radius: 30px;
+    justify-items: stretch;
+    margin-top: 2em;
+}
+
+.sec2 img{
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    align-content: center;
+    
+   
+}
+.sec2 h2{
+    font-size: 20px;
+}
+
+.sec2 .g1{
+    grid-column: 1;
+    grid-row: 1;
+    
+    align-items: center;
+    padding: 1.5em;
+    
+}
+
+
+.sec2 .g2{
+    grid-column: 2;
+    grid-row: 1;
+    
+    padding: 1.5em;
+}
+.sec2 .g3{
+    grid-column: 3;
+    grid-row: 1;
+    
+    padding: 1.5em;
+
+}
+.sec2 .g4{
+    grid-column: 4;
+    grid-row: 1;
+    
+    padding: 1.5em;
+}
+.sec2 .g5{
+   grid-column: 1;
+   grid-row: 2;
+    
+    padding: 1.5em;
+}
+.sec2 .g6{
+    grid-column: 2;
+    grid-row: 2;
+    
+    padding: 1.5em;
+
+}
+.sec2 .g7{
+    grid-column: 3;
+    grid-row: 2;
+    
+    padding: 1.5em;
+
+}
+.sec2 .g8{
+    grid-column: 4;
+    grid-row: 2;
+    
+    padding: 1.5em;
+}
+
+
+
+
+
+
+
+
+.sech1 .sech2 .sech3 .sech4{
+    align-self: flex-end;
+}
+
+.sech5 .sech6 .sech7 .sech8{
+    align-self: flex-end;
+    padding-bottom: 1.3em;
+}
+
+
+.sec3{
+    margin-bottom: 5.5em;
+    font-size: 1.7em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/sec3.png);
+    background-size: cover;
+}
+
+.sec3 h1{
+    font-family: letra2;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: white;
+    font-size: 3em;
+}
+
+.divsub{
+    font-family: gabriela;
+    padding-inline: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.divgrande{
+    font-family: gabriela;
+    margin-top: 3.5em;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.7fr 1.5fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr;
+}
+
+.an{
+    background-color: white;
+    grid-column: 1;
+    grid-row: 1;
+    align-items: center;
+    padding: 1em;
+}
+
+.nn{
+    background-color: white;
+    grid-column: 1;
+    grid-row: 3;
+    align-items: center;
+    padding: 1em;
+}
+
+.amn{
+    background-color: white;
+    grid-column: 1;
+    grid-row: 5;
+    align-items: center;
+    padding: 1em;
+}
+
+.pan{
+    background-color: white;
+    grid-column: 2;
+    grid-row: 1;
+    align-items: center;
+    padding: 1em;
+}
+
+.pnn{
+    background-color: white;
+    grid-column: 2;
+    grid-row: 3;
+    align-items: center;
+    padding: 1em;
+}
+
+.pamn{
+    background-color: white;
+    grid-column: 2;
+    grid-row: 5;
+    align-items: center;
+    padding: 1em;
+}
+
+.ai{
+    background-color: white;
+    grid-column: 4;
+    grid-row: 1;
+    align-items: center;
+    padding: 1em;
+}
+
+.ni{
+    background-color: white;
+    grid-column: 4;
+    grid-row: 3;
+    align-items: center;
+    padding: 1em;
+}
+
+.ami{
+    background-color: white;
+    grid-column: 4;
+    grid-row: 5;
+    align-items: center;
+    padding: 1em;
+}
+
+.pai{
+    background-color: white;
+    grid-column: 5;
+    grid-row: 1;
+    align-items: center;
+    padding: 1em;
+}
+
+.pni{
+    background-color: white;
+    grid-column: 5;
+    grid-row: 3;
+    align-items: center;
+    padding: 1em;
+}
+
+.pami{
+    background-color: white;
+    grid-column: 5;
+    grid-row: 5;
+    align-items: center;
+    padding: 1em;
+}
+
+.botonsc3{
+    background-color: orange;
+    color: white;
+    padding: 2em 4em 2em 4em;
+    border-radius: 28px;
+    margin-top: 5em;
+    font-size: 0.5em;
+}
+
+
+#fo{
+    background-image: url(img/fondo\ azul.jpg);
+    color: #FFFFFF;
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 4em em 1em 2em ;
+   }
+   
+   
+   .h1fo{
+       grid-column: 1;
+       grid-row: 1/3;
+       text-align: center;
+       padding: 2.5em 0em 1em 0em;
+       width: 100%;
+       margin-top: 3em;
+   
+   }
+   
+    .con{
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    padding: 2.5em 0em 1em 0em;
+    width: 100%;
+    margin-top: 3em;
+   }
+   
+   .ul1{
+   grid-column: 1;
+   grid-row: 2;
+   text-align: center;
+   list-style: none;
+   line-height: 1.8;
+   font-size: 20px;
+   }
+   
+   
+   .button1{
+       grid-column: 1;
+       grid-row: 3;
+       width: 30%;
+       height: 10vh;
+       border-radius: 25px;
+        background-color: gold;
+       font-size: 25px;
+        margin: 0 5em 0 5em;
+   }
+
+   .ul2{
+   grid-column: 2/3;
+   grid-row: 2;
+   list-style: none;
+   line-height: 1.8;  
+   font-size: 20px;
+   margin: 0.5em 1em 7em 18em;
+   
+   text-align: center;
+   }
+   
+   .ul3{
+       grid-column: 3/5;
+       grid-row: 2;
+       list-style: none;
+       line-height: 1.8;
+      font-size: 20px;
+   
+   }
+   
+   .mapa{
+       grid-column: 3;
+       grid-row: 3;
+       width: 30%;
+       height: 10vh;
+       border-radius: 25px;
+        background-color: gold;
+        font-size: medium;
+        font-size: 25px;
+        margin: 0 5em 0 5em;
+   
+   } 
+   .redes{
+       grid-column: 2;
+       grid-row: 3;
+       align-self: center;
+      text-align: center;
+      margin-top: 5em;
+   }
+   
+   
+   .iredes{
+       grid-column: 2;
+       grid-row: 4;
+       display: flex;
+       flex-direction: row;
+       list-style: none;
+       gap: 4em;
+       
+       margin: 0 6em 14em 5em;
+       padding: 1.5em 1em 0 1em;
+   }
+   
+   .logob{
+       grid-column: 3/5;
+       grid-row: 4;
+       width: 60%;
+       height: 15vh;
+       padding: 1em 0 0em 5em;
+       align-self: center;
+   }
+
+   #fo{
+
+    background-image: url(img/fondo\ azul.jpg);
+    color: #FFFFFF;
+   display: grid;
+    grid-template-columns: 1.5fr 0.3fr 2.5fr;
+    grid-template-rows: 1.5fr 0.3fr ;
+    width: 100%;
+   
+   
+   
+   }
+   
+   
+   .h1fo{
+   
+       grid-column: 1;
+       grid-row: 1;
+    text-align: center;
+    padding: 3em 0 0 0;
+    font-family: mochiy;
+    font-size: 1.1em;
+   
+   }
+   
+   
+   .ul1{
+   
+       font-family: gabriela ;
+   grid-column: 1;
+   grid-row: 2;
+   
+   text-align: center;
+   
+   line-height: 1.8;
+   
+   
+   
+   padding: 3em 0 0 0;
+   
+   
+   }
+   .button1{
+   
+       grid-column: 1;
+       grid-row: 2;
+   
+       width: 50%;
+       height: 8vh;
+   
+       border-radius: 25px;
+   background-color: gold;
+   
+   font-size: 23px;
+   
+   font-family: gabriela;
+   margin: 0 0 0 5em;
+   
+   
+   }
+   
+   
+   .con{
+   
+   
+   grid-column: 3;
+   grid-row: 1;
+    text-align: left;
+   
+    font-size: 1.1em;
+   
+    padding: 3em 0 0 0;
+   
+   font-family: mochiy;
+   
+   
+   }
+   
+   
+   
+   
+   .ul2{
+   
+   grid-column: 2;
+   grid-row: 1;
+   
+   list-style: none;
+   
+   
+   width: 28%;
+   height: 11vh;
+   padding: 5em 1em 0 0;
+   justify-self: right;    
+   
+   
+   
+   }
+   
+   .tele img{
+       width: 98%;
+   }
+   
+   .ul3{
+   
+   
+       grid-column: 3/5;
+       grid-row: 1;
+   
+       list-style: none;
+   
+       line-height: 2;
+   
+   
+   display: flex;
+   flex-direction: column;
+   gap: 2em;
+   font-family: gabriela;
+   
+   
+   padding: 7em 0 0 1em;
+   
+   
+   
+   }
+   
+   .mapa{
+   
+       grid-column: 3;
+       grid-row: 2;
+     
+       width: 20%;
+       height: 8vh;
+   
+       border-radius: 25px;
+   background-color: gold;
+   
+   font-size: 23px;
+   margin: 0 3em 0 0;
+   font-family: gabriela;
+   align-content: center;
+   
+   }
+   
+   .mapaa{
+   
+       width: 150%;
+       height: 8vh;
+       border-radius: 25px;
+       background-color: gold;
+       font-size: 23px;
+       font-family: gabriela;
+   
+   
+   }
+   
+   
+   .redes{
+   
+       grid-column: 2;
+       grid-row: 2;
+         text-align: center;
+        
+      font-family: mochiy;
+      font-size: 1.1em;
+      padding: 0.9em 0 0 0 ;
+   
+   }
+   
+   
+   .iredes{
+   
+   
+       grid-column: 2;
+       grid-row: 2;
+   
+       display: flex;
+       flex-direction: row;
+       list-style: none;
+      align-self: center;
+      gap: 1.2em;
+   
+      height: 6vh;
+      
+       margin: 0;
+       padding: 1em 0 0 0;
+     
+   
+       
+   
+   }
+   
+   .logob{
+   
+       grid-column: 3;
+       grid-row: 2/3;
+       width: 60%;
+       height: 15vh;
+       padding: 2em 5em 0 0;
+       justify-self: right;
+       
+   
+   }
+   
+   .re{
+   
+       font-family: gabriela;
+       font-size: 15px;
+       grid-column: 3;
+    grid-row:1 ;
+    text-align-last: right;
+   
+   }
+
+
+
+
+   @media only screen and (max-width: 600px) {
+    body {
+        }
+        
+        nav ul{
+            align-items: center;
+            flex-direction: row;
+            color: white;
+            font-size: 10px;
+        }
+
+        
+
+
+        nav .logo{
+            width: 22%;
+    height: 22%;
+    margin-top:2.5em;
+        }
+        .banner{
+            background-position: center;   
+        }
+        .sec1{
+            background-position: center;
+            padding: 5em;
+            width: 100%;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            border-radius: 20px;
+        }
+        
+        .sec1 h1{
+            margin-bottom: 1em;
+            margin-top: 1.5em;
+            font-size: 2em;
+        }
+        
+        .sec1 p{
+            
+            font-size: 1em;
+            width: 100%;
+        }
+        .sec2{
+            margin-top: 5em;
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top;
+            width: 85%;
+            color: darkgoldenrod;
+            display: grid;
+            grid-template-columns: 0.5fr 0.5fr ;
+            grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr ;
+            
+            text-align: center;
+            border-radius: 30px;
+            justify-items: stretch;
+        }
+
+        .sec2 img{
+            
+            width: 6em;
+            height: 6em;
+            justify-content: center;
+        }
+        .sec2 h2{
+            font-size: 10px;
+        }
+        
+        .sec2 .g1{
+            grid-column: 1;
+            grid-row: 1;
+        }
+        .sec2 .g2{
+            grid-column: 2;
+            grid-row: 1;
+        }
+        .sec2 .g3{
+            grid-column: 1;
+            grid-row: 2;
+        }
+        .sec2 .g4{
+            grid-column: 2;
+            grid-row: 2;
+        }
+        .sec2 .g5{
+            grid-column: 1;
+            grid-row: 3;
+        }
+        .sec2 .g6{
+            grid-column: 2;
+            grid-row: 3;
+        }
+        .sec2 .g7{
+            grid-column: 1;
+            grid-row: 4;
+        }
+        .sec2 .g8{
+            grid-column: 2;
+            grid-row: 4;
+        }
+
+
+
+
+
+
+
+        
+        .sech1 .sech2 .sech3 .sech4{
+            align-self: flex-end;
+        }
+        
+        .sech5 .sech6 .sech7 .sech8{
+            align-self: flex-end;
+            padding-bottom: 1.3em;
+        }
+
+        .sec3{
+            background-image: url(img/img3.png);
+            margin-top: 5.5em;
+            margin-bottom: 5.5em;
+            font-size: 0.6em;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+           height: 50em;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .sec3 h1{
+            margin-top: 1em;
+            margin-bottom: 1em;
+            color: white;
+            
+        }
+        .botonsc3{
+            background-color: orange;
+            color: white;
+            padding: 2em 4em 2em 4em;
+            border-radius: 28px;
+            margin-top: 4em;
+            font-size: 0.7em;
+        }
+
+        #fo{
+
+            display: grid;
+            
+            grid-template-columns: 0.3fr 0.3fr  ;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            
+            width: 100%;
+            
+            
+            font-size: 35%;
+            
+            }
+            
+            .fo1{
+            
+                 grid-column: 1;
+                grid-row: 1;
+                padding: 1.5em 0 0 0;
+               
+            
+            
+            }
+            .h1fo{
+                font-size: 13px;
+            
+            }
+            
+            .ul1{
+                font-size: 1.8em;
+                padding: 1.5em 0 0 0;
+             
+            }
+            
+            
+            
+            .button1{
+            
+                margin: 0;
+            
+                grid-column: 2;
+                grid-row: 1;
+                font-size: 2.3em;
+                width: 6em;
+                height: 7vh;
+                margin: 6em 0 0 0;
+            
+            }
+            
+            .con{
+                grid-column:1 ;
+                grid-row: 2;
+                text-align: center;
+                font-size: 13px;
+                padding: 5em 0 0 0;
+            
+            
+            }
+            .fo2{
+            
+                display: flex;
+                flex-direction: row;
+            
+                grid-column:1 ;
+                grid-row: 3 ;
+            }
+            
+            
+            
+            .ul2{
+            
+                margin: 0;
+                text-align: left;
+                line-height: 10;
+                width: 99%;
+                height: 35vh;
+                grid-column: 1;
+                grid-row: 3;
+                font-size: 2px;
+            }
+            
+            .tele img{
+                width: 15%;
+                line-height: 1;
+            
+            }
+            
+            .ul3{
+            
+            
+                font-size: 1.8em;
+                margin: 0;
+               
+                line-height:2;
+                padding: 1.5em 0 0 5.5em;
+                   grid-column:1/2;
+                grid-row: 3 ;
+            
+            }
+            
+            .mapa{
+            
+                margin: 12em 0 0 0;
+                grid-column:2 ;
+                grid-row: 3 ;
+             
+                font-size: 2em;
+                width: 54%;
+                height: 7vh;
+               
+               
+              
+                }
+            .mapaa{
+              
+             
+                width: 4em;
+                height: 7vh;
+                font-size: 20px;
+            
+            }
+            
+            
+            
+            .redes{
+            
+                margin: 0;
+                padding: 0em 0 0 0;
+                grid-column: 1;
+                font-size: 1.5em;
+                grid-row: 5;
+                text-align-last: center;
+                align-self: flex-start;
+               
+            
+            }
+            
+            .iredes{
+            
+                width: 100%;
+                height: 10vh;
+                
+                grid-column: 1;
+            
+                grid-row: 5;
+                align-items: center;
+                padding: 0 0 4em 10em;
+            }
+            
+            .logob{
+            
+                grid-column: 2;
+                grid-row: 5;
+                width: 22.5em;
+                height: 8vh;
+                padding: 0;
+                justify-self: left;
+              }
+            
+              .re {
+            
+                font-size: 9px;
+                grid-column: 2;
+                grid-row: 1;
+              }
+            
+              }
+@media screen and (min-width: 601px) and (max-width: 1024px) { 
+                body{
+                   
+
+                } 
+            nav{ font-size: 1em;}
+            nav img{
+                width: 40%;
+                height: 50%;
+                justify-content: center;
+            }
+            
+            .sec1 h1{
+        
+                font-size: 2em;
+            }
+            .sec1 p{
+    
+                font-size: 2em;
+            }
+            
+            .sec2{
+                
+                align-items: stretch;
+                grid-template-columns: 0.5fr 0.5fr 0.5fr;
+                grid-template-rows: 0.5fr 0.5fr 0.5fr;
+            }
+            .sec2 h2{
+                font-size: 0.9em !important;
+            }
+
+            .sec2 img{
+                object-fit: cover;
+                width: 75%;
+                height: 75%;
+            }
+            .sec2 .g1{
+                grid-column: 1;
+                grid-row: 1;
+            }
+
+            .sec2 .g2{
+                grid-column: 2;
+                grid-row: 1;
+            }
+            .sec2 .g3{
+                grid-column: 3;
+                grid-row: 1;
+            }
+            .sec2 .g4{
+                grid-column: 1;
+                grid-row: 2;
+            }
+            .sec2 .g5{
+                grid-column: 2;
+                grid-row: 2;
+            }
+            .sec2 .g6{
+                grid-column: 3;
+                grid-row: 2;
+            }
+            .sec2 .g7{
+                grid-column: 1;
+                grid-row: 3;
+            }
+            .sec2 .g8{
+                grid-column: 3;
+                grid-row: 3;
+            }
+        
+            .sec3{
+                font-size:1em ;
+            }
+
+            
+            }
+            
+            
+            

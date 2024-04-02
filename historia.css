@@ -1,0 +1,1370 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+@font-face {
+    font-family: gabriela;
+    src: url(font/Gabriela-Regular.ttf);
+}
+
+@font-face {
+    font-family: mochiy;
+    src: url(font/MochiyPopPOne-Regular.ttf)
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 7em;
+    background-image: url(img/fondo\ azul.jpg);
+    font-family: mochiy;
+    font-size: 1.5em;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.inicio{
+    padding: 3em;
+    color: white;
+    
+
+}
+.qsomos{
+    padding: 3em;
+    color: white;
+ 
+
+}
+.historia{
+    padding: 3em;
+    color: white;
+
+
+}
+.galeria{
+    padding: 3em;
+}
+
+#sc1{
+
+padding: 0 3em 0 3em;
+ 
+
+}
+.history{
+
+display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2em 0 2em 0em;
+font-family: mochiy;
+background-image: url(img/pergamino/1-Photoroom.png);
+background-repeat: no-repeat;
+background-size:9%;
+
+}
+
+.history  :hover{
+
+    color:#1818a8
+     
+}
+
+.img11{
+
+    height: 5.5vh;
+    width: 100%;
+    padding: 0 0 0 1.9em;
+
+
+}
+.historiaa{
+
+    display: flex;
+    flex-direction: row;
+    background-color:#9bbada;
+justify-content: space-between;
+
+margin: 1em 2em 1em 2em;
+
+height: 30vh;
+padding: 2em 1em 2em ;
+
+border-radius: 25px;
+font-family: gabriela;
+
+
+
+}
+
+
+
+.parra1{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    background-color: #FFFFFF;
+
+    border-radius: 25px;
+
+   width: 50%;
+    padding: 3em 2em 3em 2em;
+    line-height: 1.8;
+    gap: 1.5em;
+
+    margin: 0 0 0 2em;
+
+}
+
+.img1{
+
+    border-radius: 100px;
+    margin: 0 0 0 1em;
+
+}
+
+
+
+.fundadores{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #9bbada;
+justify-content: space-between;
+
+margin: 1em 2em 1em 2em;
+
+height: 30vh;
+padding: 2em 1em 2em ;
+
+border-radius: 25px;
+
+
+}
+
+.prueba{
+    display: flex;
+    flex-direction: column;
+}
+
+.funnombre{
+    text-align: center;
+    font-family: mochiy;
+}
+
+.funnombre :hover{
+
+   
+    color:#1818a8
+ 
+}
+
+.prueba .fun{
+
+ 
+ display: flex;
+ flex-direction: row;
+
+ width: 44%;
+ height: 18vh; 
+ padding: 0 6em 0 2em; 
+ margin: 4em 0 0 0;
+ font-family: mochiy;
+font-size: 1em;
+    
+}
+
+.prueba .fund{
+
+width: 100%;
+
+
+   
+}
+
+.prueba .indigenas{
+
+    order: -1;
+
+
+  
+}
+
+
+.img3{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    order: -1;
+    
+  
+
+}
+
+.prueba .ros{
+
+    align-self: end;
+    padding: 0 0 0 0;
+    margin: 0 0.5em 0 2em;
+
+
+  
+  
+}
+
+.img2{
+
+    width: 70%;
+    height: 100%;
+    border-radius: 25px;
+
+
+
+
+
+}
+
+.parra2{
+    
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    width: 50%;
+    height: 15vh;
+    line-height: 1.8;
+    text-align: center;
+
+    padding: 3em 2em 3em 2em;
+    margin-top: 3em;
+
+    font-family: gabriela;
+}
+
+
+
+.antigua{
+
+    display: flex;
+    flex-direction: row;
+    background-color:#9bbada;
+justify-content: space-between;
+
+text-align: center;
+margin: 1em 2em 1em 2em;
+
+height: 30vh;
+padding: 2em 1em 2em ;
+
+border-radius: 25px;
+
+
+
+}
+
+.ah{
+
+font-family: mochiy;
+
+}
+
+
+.pantigua{
+
+    text-align: center;
+
+    background-color: #FFFFFF;
+
+    border-radius: 25px;
+
+   width: 70%;
+   height: 15vh;
+    padding: 3em 2em 3em 2em;
+    line-height: 1.8;
+    margin: 1em 0 0 2em;
+
+    font-family: gabriela;
+}
+
+
+.anti{
+
+    border-radius: 30px;
+    width: 50%;
+    height: 30vh;
+
+
+
+}
+.nueva{
+
+    display: flex;
+    flex-direction: row;
+    background-color:#9bbada;
+justify-content: space-between;
+
+margin: 1em 2em 1em 2em;
+
+height: 30vh;
+padding: 2em 1em 2em ;
+
+border-radius: 25px;
+
+gap: 20em;
+
+}
+
+.pnu{
+
+
+align-self: center;
+    background-color: #FFFFFF;
+
+    border-radius: 25px;
+
+   width: 80%;
+    padding: 3em 2em 3em 2em;
+    line-height: 1.8;
+
+
+    margin: 1em 5em 0 1em;
+    height: 15vh;
+    gap: 3em;
+
+    font-family: gabriela;
+
+}
+
+.texnu{
+
+    text-align: center;
+font-family: mochiy;
+
+}
+
+
+
+
+
+.imgnu{
+
+    width: 40%;
+    height: 30vh;
+    order: -1;
+    border-radius: 25px;
+    margin: 0 0 0 3em;
+
+  
+}
+
+
+
+#fo{
+
+ background-image: url(img/fondo\ azul.jpg);
+ color: #FFFFFF;
+display: grid;
+ grid-template-columns: 1.5fr 0.3fr 2.5fr;
+ grid-template-rows: 1.5fr 0.3fr ;
+ width: 100%;
+
+
+
+}
+
+
+.h1fo{
+
+    grid-column: 1;
+    grid-row: 1;
+ text-align: center;
+ padding: 3em 0 0 0;
+ font-family: mochiy;
+ font-size: 1.1em;
+
+}
+
+
+.ul1{
+
+    font-family: gabriela ;
+grid-column: 1;
+grid-row: 2;
+
+text-align: center;
+
+line-height: 1.8;
+
+
+
+padding: 3em 0 0 0;
+
+
+}
+.button1{
+
+    grid-column: 1;
+    grid-row: 2;
+
+    width: 36%;
+    height: 8vh;
+
+    border-radius: 25px;
+background-color: gold;
+
+font-size: 23px;
+
+font-family: gabriela;
+margin: 0 0 0 5em;
+
+
+}
+
+
+.con{
+
+
+grid-column: 3;
+grid-row: 1;
+ text-align: left;
+
+ font-size: 1.1em;
+
+ padding: 3em 0 0 0;
+
+font-family: mochiy;
+
+
+}
+
+
+
+
+.ul2{
+
+grid-column: 2;
+grid-row: 1;
+
+list-style: none;
+
+
+width: 28%;
+height: 11vh;
+padding: 5em 1em 0 0;
+justify-self: right;    
+
+
+
+}
+
+.tele img{
+    width: 98%;
+}
+
+.ul3{
+
+
+    grid-column: 3/5;
+    grid-row: 1;
+
+    list-style: none;
+
+    line-height: 2;
+
+
+display: flex;
+flex-direction: column;
+gap: 2em;
+font-family: gabriela;
+
+
+padding: 7em 0 0 1em;
+
+
+
+}
+
+.mapa{
+
+    grid-column: 3;
+    grid-row: 2;
+  
+    width: 20%;
+    height: 8vh;
+
+    border-radius: 25px;
+background-color: gold;
+
+font-size: 23px;
+margin: 0 3em 0 0;
+font-family: gabriela;
+align-content: center;
+
+}
+
+.mapaa{
+
+    width: 100%;
+    height: 8vh;
+    border-radius: 25px;
+    background-color: gold;
+    font-size: 23px;
+    font-family: gabriela;
+
+
+}
+
+
+.redes{
+
+    grid-column: 2;
+    grid-row: 2;
+      text-align: center;
+     
+   font-family: mochiy;
+   font-size: 1.1em;
+   padding: 0.9em 0 0 0 ;
+
+}
+
+
+.iredes{
+
+
+    grid-column: 2;
+    grid-row: 2;
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   align-self: center;
+   gap: 1.2em;
+
+   height: 6vh;
+   
+    margin: 0;
+    padding: 1em 0 0 0;
+  
+
+    
+
+}
+
+.logob{
+
+    grid-column: 3;
+    grid-row: 2/3;
+    width: 45%;
+    height: 15vh;
+    padding: 2em 5em 0 0;
+    justify-self: right;
+    
+
+}
+
+.re{
+
+    font-family: gabriela;
+    font-size: 60%;
+    grid-column: 3;
+ grid-row:1 ;
+ text-align-last: right;
+
+}
+
+@media only screen and (max-width: 600px) { 
+  body { 
+  
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    nav{
+    
+        width: 100%;
+        height: 7em;
+        background-image: url(img/fondo\ azul.jpg);
+        font-family: mochiy;
+        font-size: 0.9em;
+    }
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    color: white;
+
+    width: 100%;
+}
+
+.inicio{
+    padding: 0.9em;
+}
+.qsomos{
+    padding: 0.5em;
+}
+.historia{
+    padding: 0.5em;
+}
+.galeria{
+    padding: 0.5em;
+}
+
+.imgnav{
+    width: 15%;
+    height: 5vh;
+    object-fit: cover;
+    align-self: center;
+}
+
+#sc1{
+        padding: 0 2.05em 0 0.05em;
+         
+        
+        }
+
+.history{
+
+   
+    width: 100%;
+    margin: 0.5em 0 0.5em 0em;
+background-size:25%;
+
+
+
+
+}
+
+.img11{
+
+        width: 90%;
+        padding: 0 0 0 0;
+        
+}
+
+.hist{
+
+    font-size: 77%;
+
+    padding: 0.5em 0 0 0.5em;
+
+}
+
+
+.historiaa{
+
+    display: flex;
+    flex-direction: column;
+    margin: 1em 2em 1em 2em;
+    padding: 2em 1em 2em 0;
+    height: 58vh;
+    width: 100%;
+font-size: 54%;
+align-items: center;
+
+
+}
+
+
+
+.parra1{
+
+    width: 86%;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 0.5em 0 0 0.5em;
+    font-size: 1.5em;
+
+}
+
+.img1{
+
+    margin: 0 0 0.5em 0;
+    width: 61%;
+    height: 20vh;
+}
+
+
+.fundadores{
+
+ display: flex;
+  flex-direction: column;
+margin: 1em 2em 1em 2em;
+ padding: 2em 1em 2em 0;
+    height: 62vh;
+    font-size: 54%;
+    align-items: center;
+    
+    width: 100%;
+
+}
+
+.prueba .fun{
+
+    display: flex;
+    flex-direction: row;
+   
+    padding: 0 6em 0 2em;
+    margin: 4em 0 0 0;
+    font-family: mochiy;
+    width: 26%;
+    height: 13vh;
+
+}
+
+.parra2{
+
+    width: 79%;
+    font-size: 1.5em;
+    align-content: center;
+    height: 35vh;
+    padding: 2em 1em 2.5em 1em;
+    margin: 1em 0 0 0;
+       
+
+}
+
+.antigua{
+
+    display: flex;
+    flex-direction: column;
+  margin: 1em 2em 1em 2em;
+   padding: 2em 2em 2em 0;
+      height: 60vh;
+      font-size: 54%;
+      align-items: center;
+      width: 100%;
+
+}
+
+.pantigua{
+
+    width: 88%;
+    font-size: 1.5em;
+    align-content: center;
+    height: 31vh;
+    padding: 0 1em 0 1em;
+    margin: 1em 1em 1em 1em;
+
+
+}
+
+.anti{
+    margin: 1em 0 1em 0;
+    width: 61%;
+    height: 20vh;
+
+
+}
+
+.nueva{
+
+    display: flex;
+ flex-direction: column-reverse;
+      margin: 1em 2em 1em 2em;
+   padding: 2em 2em 2em 0;
+   width: 100%;
+   height: 45vh;
+
+      font-size: 54%;
+      align-items: center;
+      gap: 0;
+
+}
+
+.pnu{
+
+    width: 90%;
+    font-size: 1.5em;
+    align-content: center;
+    height: 25vh;
+    padding: 0 1em 0 1em;
+    margin: 1em 1em 1em 1em;
+}
+            
+}
+
+.imgnu{
+    height: 30%;
+    margin: 1em 0 1em 0;
+    width: 58%;
+
+}
+
+#fo{
+
+display: grid;
+
+grid-template-columns: 1fr 1fr  ;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+width: 100%;
+
+height: 103vh;
+font-size: 52%;
+
+}
+
+.fo1{
+
+     grid-column: 1;
+    grid-row: 1;
+    padding: 1.5em 0 0 0;
+   
+
+
+}
+.h1fo{
+    font-size: 13px;
+
+}
+
+.ul1{
+    font-size: 1.8em;
+    padding: 1.5em 0 0 0;
+ 
+}
+
+
+
+.button1{
+
+    margin: 0;
+
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 1.5em;
+    width: 4em;
+    height: 5vh;
+    margin: 6em 0 0 0;
+   
+
+
+
+
+
+}
+
+.con{
+    grid-column:1 ;
+    grid-row: 2;
+    text-align: center;
+    font-size: 13px;
+    padding: 5em 0 0 0;
+
+
+}
+.fo2{
+
+    display: flex;
+    flex-direction: row;
+
+    grid-column:1 ;
+    grid-row: 3 ;
+}
+
+
+
+.ul2{
+
+    margin: 0;
+    text-align: left;
+    line-height: 10;
+    width: 99%;
+    height: 35vh;
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 2px;
+}
+
+.tele img{
+    width: 13%;
+    line-height: 2;
+
+}
+
+.ul3{
+
+
+    font-size: 1.8em;
+    margin: 0;
+   
+    line-height:2;
+    padding: 1.5em 0 0 5.5em;
+       grid-column:1/2;
+    grid-row: 3 ;
+
+}
+
+.mapa{
+
+    margin: 20em 0 0 0;
+    grid-column:2 ;
+    grid-row: 3 ;
+ 
+    width: 3em;
+    height: 5vh;
+    font-size: 1.3em;
+    border: none;
+   
+  
+    }
+.mapaa{
+  
+ 
+    width: 3em;
+    height: 5vh;
+    font-size: 1.3em;
+    border: none;
+   
+    
+
+}
+
+
+
+.redes{
+
+    margin: 0;
+    padding: 4em 0 0 0;
+    grid-column: 1;
+    font-size: 1.5em;
+    grid-row: 4;
+    text-align-last: center;
+    align-self: flex-start;
+   
+
+}
+
+.iredes{
+
+    width: 100%;
+    height: 10vh;
+    
+    grid-column: 1;
+
+    grid-row: 5;
+    align-items: center;
+    padding: 0 0 4em 10em;
+}
+
+.red img{
+
+    width: 5%;
+   
+}
+
+.logob{
+
+    grid-column: 2;
+    grid-row: 5;
+
+    width: 5.5em;
+    height: 5vh;
+    align-self: center;
+  }
+
+  .re {
+
+    font-size: 109%;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) { 
+  body { 
+
+    nav{
+    
+    
+        height: 6em;
+        font-size: 17px;
+    }
+
+
+.inicio{
+    padding: 0.9em;
+}
+.qsomos{
+    padding: 0.9em;
+}
+.historia{
+    padding: 0.9em;
+}
+.galeria{
+    padding: 0.9em;
+}
+
+.imgnav{
+
+    width: 21%;
+    height: 12vh;
+}
+
+#sc1{
+        padding: 0 2.05em 0 0.05em;
+         
+        
+        }
+
+.history{
+
+   
+    width: 100%;
+    margin: 0.5em 0 0.5em 0em;
+}
+
+.img11{
+
+    width: 85%;
+    height: 6vh;
+    padding: 0;
+
+}
+
+.historiaa{
+
+
+ font-size: 54%;
+ align-items: center;
+ height: 66vh !important;
+ width: 100%;
+
+}
+
+.parra1{
+
+    width: 86%;
+    padding: 0.5em 1em 0.5em 1em;
+        font-size: 1.7em;
+
+}
+
+.img1{
+
+    margin: 0 0 0 0;
+    width: 55%;
+}
+
+
+.fundadores{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2em 1em 2em 0;
+    height: 60vh;
+    font-size: 58%;
+    align-items: center;
+    width: 100%;
+   
+   }
+   
+   .parra2{
+   
+       width: 86%;
+       font-size: 1.5em;
+       align-content: center;
+          
+   
+   }
+
+   .img3{
+
+    width: 100%;
+    height: 22vh;
+   }
+
+.img2{
+
+  width: 100%;
+    height: 22vh;    
+
+}
+
+
+.antigua{
+
+  font-size: 58%;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+
+}
+
+.ah{
+
+        margin: 0 0 1em 0;
+
+}
+.pantigua{
+
+    width: 81%;
+    font-size: 1.5em;
+    align-content: center;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    width: 70%;
+    height: 34vh;
+    padding: 3em 2em 3em 2em;
+    line-height: 1.8;
+    margin: 0em 0 0 0em;
+}
+
+.nueva{
+
+    
+   
+   padding: 2em 2em 2em ;
+      height: 40vh;
+      width: 100%;
+      font-size: 58%;
+margin: 0;
+      align-items: center;
+      gap: 0;
+
+}
+
+.pnu{
+    width: 99%;
+    height: 34vh;
+    font-size: 1.5em;
+    align-content: center;
+            
+}
+
+.texnu{
+
+    text-align: center;
+    font-family: mochiy;
+}
+
+.nu1{
+
+
+    
+}
+
+.pnu{
+
+
+    width: 98%;
+    height: 36vh;
+    font-size: 1.5em;
+    align-content: center;
+    margin: 0 1em 0 1em;
+    padding: 0 0 0 0;
+}
+#fo {
+    background-image: url(img/fondo\ azul.jpg);
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1.5fr 0.3fr 2.5fr;
+    grid-template-rows: 1.5fr 0.3fr;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.h1fo{
+
+    grid-column: 1;
+    grid-row: 1;
+ text-align: center;
+ padding: 3em 0 0 0;
+ font-family: mochiy;
+ font-size: 1.1em;
+
+}
+
+
+.ul1{
+
+    font-family: gabriela ;
+grid-column: 1;
+grid-row: 2;
+
+text-align: center;
+
+line-height: 1.8;
+
+padding: 3em 0 0 0;
+font-size: 12px;
+
+
+}
+.button1{
+
+    grid-column: 1;
+    grid-row: 2;
+
+    width: 36%;
+    height: 7vh;
+
+    border-radius: 25px;
+background-color: gold;
+
+font-size: 23px;
+
+font-family: gabriela;
+margin: 0 0 0 3em;
+
+
+}
+
+
+.con{
+
+
+grid-column: 3;
+grid-row: 1;
+ text-align: left;
+
+ font-size: 1.1em;
+
+ padding: 3em 0 0 0;
+
+font-family: mochiy;
+
+
+}
+
+
+
+
+.ul2{
+
+grid-column: 2;
+grid-row: 1;
+
+list-style: none;
+
+
+width: 28%;
+height: 11vh;
+padding: 5em 1em 0 0;
+justify-self: right;    
+
+
+
+}
+
+.tele img{
+
+
+    width: 50%;
+    height: 50%;
+
+
+   
+
+}
+
+
+.ul3{
+
+
+    grid-column: 3;
+    grid-row: 1;
+
+    list-style: none;
+
+    line-height: 2;
+
+
+
+display: flex;
+flex-direction: column;
+gap: 1em;
+font-family: gabriela;
+font-size: 12px;
+
+padding: 7em 0 0 1em;
+
+
+
+}
+
+.mapa{
+
+    grid-column: 3;
+    grid-row: 2;
+    width: 43%;
+    margin: 0 1em 0 0;
+    height: 7vh;
+
+    border-radius: 25px;
+background-color: gold;
+
+font-size: 23px;
+font-family: gabriela;
+align-content: center;
+
+}
+
+
+.redes{
+
+    grid-column: 2;
+    grid-row: 2;
+      text-align: center;
+     
+   font-family: mochiy;
+   font-size: 1.1em;
+   padding: 0.9em 0 0 0 ;
+
+}
+
+
+.iredes{
+
+
+    grid-column: 2;
+    grid-row: 2;
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   align-self: center;
+   gap: 1.2em;
+
+   height: 6vh;
+   
+    margin: 0;
+    padding: 1em 0 0 0;
+  
+
+    
+
+}
+
+.logob{
+
+    grid-column: 3;
+    grid-row: 2/3;
+    width: 45%;
+    height: 15vh;
+    padding: 2em 5em 0 0;
+    justify-self: right;
+
+}
+
+}
+}
+
+
+  
