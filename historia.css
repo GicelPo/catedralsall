@@ -23,7 +23,7 @@ nav{
     height: 7em;
     background-image: url(img/fondo\ azul.jpg);
     font-family: mochiy;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 nav ul{
@@ -54,6 +54,11 @@ nav ul{
     padding: 3em;
 }
 
+.imgnav{
+    width: 17%;
+    height: 13vh;
+    align-self: self-end;
+}
 #sc1{
 
 padding: 0 3em 0 3em;
@@ -69,7 +74,7 @@ display: flex;
 font-family: mochiy;
 background-image: url(img/pergamino/1-Photoroom.png);
 background-repeat: no-repeat;
-background-size:9%;
+background-size:15%;
 
 }
 
@@ -83,7 +88,7 @@ background-size:9%;
 
     height: 5.5vh;
     width: 100%;
-    padding: 0 0 0 1.9em;
+    padding: 0 0 0 0.9em;
 
 
 }
@@ -93,12 +98,10 @@ background-size:9%;
     flex-direction: row;
     background-color:#9bbada;
 justify-content: space-between;
-
-margin: 1em 2em 1em 2em;
-
-height: 30vh;
+width: 100%;
+margin: 0 0 2em 0;
+height: 54vh;
 padding: 2em 1em 2em ;
-
 border-radius: 25px;
 font-family: gabriela;
 
@@ -110,27 +113,27 @@ font-family: gabriela;
 
 .parra1{
 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-    background-color: #FFFFFF;
-
-    border-radius: 25px;
-
-   width: 50%;
-    padding: 3em 2em 3em 2em;
-    line-height: 1.8;
-    gap: 1.5em;
-
-    margin: 0 0 0 2em;
-
-}
+  
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #FFFFFF;
+        border-radius: 25px;
+        width: 52%;
+        height: 97%;
+        padding: 1em 2em 1em 2em;
+        line-height: 1.8;
+        gap: 1.5em;
+        margin: 0 0 0 2em;
+    }
 
 .img1{
 
     border-radius: 100px;
     margin: 0 0 0 1em;
+    width: 42%;
+    height: 59%;
+    align-self: center;
 
 }
 
@@ -142,10 +145,9 @@ font-family: gabriela;
     flex-direction: row;
     background-color: #9bbada;
 justify-content: space-between;
-
-margin: 1em 2em 1em 2em;
-
-height: 30vh;
+height: 44vh;
+width: 100%;
+margin: 0 0 2em 0;
 padding: 2em 1em 2em ;
 
 border-radius: 25px;
@@ -175,13 +177,15 @@ border-radius: 25px;
  
  display: flex;
  flex-direction: row;
-
- width: 44%;
- height: 18vh; 
- padding: 0 6em 0 2em; 
+ width: 26%;
+ height: 24vh;
+ padding: 0 1em 0 1em;
  margin: 4em 0 0 0;
  font-family: mochiy;
 font-size: 1em;
+
+
+
     
 }
 
@@ -240,14 +244,12 @@ width: 100%;
     
     background-color: #FFFFFF;
     border-radius: 25px;
-    width: 50%;
-    height: 15vh;
+    width: 65%;
+    height: 42vh;
     line-height: 1.8;
     text-align: center;
-
-    padding: 3em 2em 3em 2em;
-    margin-top: 3em;
-
+    padding: 1em 1em 1em 1em;
+    align-self: center;
     font-family: gabriela;
 }
 
@@ -259,14 +261,12 @@ width: 100%;
     flex-direction: row;
     background-color:#9bbada;
 justify-content: space-between;
-
 text-align: center;
-margin: 1em 2em 1em 2em;
-
-height: 30vh;
+height: 45vh;
 padding: 2em 1em 2em ;
-
 border-radius: 25px;
+width: 100%;
+margin: 0 0 2em 0;
 
 
 
@@ -286,10 +286,9 @@ font-family: mochiy;
     background-color: #FFFFFF;
 
     border-radius: 25px;
-
-   width: 70%;
-   height: 15vh;
-    padding: 3em 2em 3em 2em;
+    width: 70%;
+    height: 33vh;
+    padding: 1em 1em 1em 1em;
     line-height: 1.8;
     margin: 1em 0 0 2em;
 
@@ -302,6 +301,7 @@ font-family: mochiy;
     border-radius: 30px;
     width: 50%;
     height: 30vh;
+    align-self: center;
 
 
 
@@ -311,43 +311,34 @@ font-family: mochiy;
     display: flex;
     flex-direction: row;
     background-color:#9bbada;
-justify-content: space-between;
-
-margin: 1em 2em 1em 2em;
-
-height: 30vh;
+    justify-content: space-between;
+height: 41vh;
+width: 100%;
+margin: 0 0 2em 0;
 padding: 2em 1em 2em ;
-
 border-radius: 25px;
 
-gap: 20em;
 
 }
 
 .pnu{
 
-
+    text-align: center;
 align-self: center;
     background-color: #FFFFFF;
-
     border-radius: 25px;
-
-   width: 80%;
-    padding: 3em 2em 3em 2em;
+    width: 81%;
+    padding: 1em 1em 1em 1em;
     line-height: 1.8;
-
-
-    margin: 1em 5em 0 1em;
-    height: 15vh;
-    gap: 3em;
-
+    margin: 1em 1em 0 1em;
+    height: 31vh;
     font-family: gabriela;
 
 }
 
 .texnu{
 
-    text-align: center;
+   
 font-family: mochiy;
 
 }
@@ -363,6 +354,7 @@ font-family: mochiy;
     order: -1;
     border-radius: 25px;
     margin: 0 0 0 3em;
+    align-self: center;
 
   
 }
@@ -582,14 +574,10 @@ align-content: center;
 
 }
 
+
 @media only screen and (max-width: 600px) { 
   body { 
   
-
-    *{
-        padding: 0;
-        margin: 0;
-    }
 
     nav{
     
@@ -669,10 +657,10 @@ background-size:25%;
     flex-direction: column;
     margin: 1em 2em 1em 2em;
     padding: 2em 1em 2em 0;
-    height: 58vh;
+    height: 65vh;
     width: 100%;
-font-size: 54%;
-align-items: center;
+    font-size: 54%;
+    align-items: center;
 
 
 }
@@ -690,11 +678,11 @@ align-items: center;
 
 .img1{
 
-    margin: 0 0 0.5em 0;
-    width: 61%;
-    height: 20vh;
+    margin: 2em 0 0 1em;
+    width: 39%;
+    height: 32vh;
+    align-self: center;
 }
-
 
 .fundadores{
 
@@ -702,7 +690,7 @@ align-items: center;
   flex-direction: column;
 margin: 1em 2em 1em 2em;
  padding: 2em 1em 2em 0;
-    height: 62vh;
+ height: 65vh;
     font-size: 54%;
     align-items: center;
     
@@ -728,10 +716,9 @@ margin: 1em 2em 1em 2em;
     width: 79%;
     font-size: 1.5em;
     align-content: center;
-    height: 35vh;
-    padding: 2em 1em 2.5em 1em;
+    height: 40vh;
+    padding: 1em 1em 1em 1em;
     margin: 1em 0 0 0;
-       
 
 }
 
@@ -740,8 +727,8 @@ margin: 1em 2em 1em 2em;
     display: flex;
     flex-direction: column;
   margin: 1em 2em 1em 2em;
-   padding: 2em 2em 2em 0;
-      height: 60vh;
+   padding: 2em 1em 2em 0;
+      height: 68vh;
       font-size: 54%;
       align-items: center;
       width: 100%;
@@ -753,11 +740,9 @@ margin: 1em 2em 1em 2em;
     width: 88%;
     font-size: 1.5em;
     align-content: center;
-    height: 31vh;
+    height: 35vh;
     padding: 0 1em 0 1em;
     margin: 1em 1em 1em 1em;
-
-
 }
 
 .anti{
@@ -771,15 +756,13 @@ margin: 1em 2em 1em 2em;
 .nueva{
 
     display: flex;
- flex-direction: column-reverse;
-      margin: 1em 2em 1em 2em;
-   padding: 2em 2em 2em 0;
-   width: 100%;
-   height: 45vh;
-
-      font-size: 54%;
-      align-items: center;
-      gap: 0;
+    flex-direction: column-reverse;
+    margin: 1em 2em 1em 2em;
+    padding: 2em 1em 2em 0;
+    width: 100%;
+    height: 58vh;
+    font-size: 54%;
+    justify-content: center;
 
 }
 
@@ -788,11 +771,15 @@ margin: 1em 2em 1em 2em;
     width: 90%;
     font-size: 1.5em;
     align-content: center;
-    height: 25vh;
+    height: 34vh;
     padding: 0 1em 0 1em;
-    margin: 1em 1em 1em 1em;
+    margin: 1em 0em 1em 0.5em;
 }
-            
+       
+
+.nu1{
+
+    text-align: center;
 }
 
 .imgnu{
@@ -823,7 +810,6 @@ font-size: 52%;
     padding: 1.5em 0 0 0;
    
 
-
 }
 .h1fo{
     font-size: 13px;
@@ -831,7 +817,7 @@ font-size: 52%;
 }
 
 .ul1{
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding: 1.5em 0 0 0;
  
 }
@@ -845,7 +831,7 @@ font-size: 52%;
     grid-column: 2;
     grid-row: 1;
     font-size: 1.5em;
-    width: 4em;
+    width: 4.3em;
     height: 5vh;
     margin: 6em 0 0 0;
    
@@ -896,14 +882,13 @@ font-size: 52%;
 
 .ul3{
 
-
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin: 0;
-   
-    line-height:2;
-    padding: 1.5em 0 0 5.5em;
-       grid-column:1/2;
-    grid-row: 3 ;
+    width: 86%;
+    line-height: 2;
+    padding: 0.5em 0 0 3em;
+    grid-column: 1 / 2;
+    grid-row: 3;
 
 }
 
@@ -923,7 +908,7 @@ font-size: 52%;
 .mapaa{
   
  
-    width: 3em;
+    width: 4em;
     height: 5vh;
     font-size: 1.3em;
     border: none;
@@ -937,31 +922,30 @@ font-size: 52%;
 .redes{
 
     margin: 0;
-    padding: 4em 0 0 0;
+    padding: 4em 0 0 3em;
     grid-column: 1;
     font-size: 1.5em;
+    text-align: left;
     grid-row: 4;
-    text-align-last: center;
-    align-self: flex-start;
    
 
 }
 
 .iredes{
 
-    width: 100%;
-    height: 10vh;
-    
+    width: 52%;
+    height: 8vh;
     grid-column: 1;
-
     grid-row: 5;
     align-items: center;
-    padding: 0 0 4em 10em;
+    align-self: center;
+    padding: 0 0 3em 2em;
 }
+
 
 .red img{
 
-    width: 5%;
+    width: 2%;
    
 }
 
@@ -969,19 +953,20 @@ font-size: 52%;
 
     grid-column: 2;
     grid-row: 5;
-
-    width: 5.5em;
-    height: 5vh;
+    width: 100%;
+    height: 7vh;
     align-self: center;
+    padding: 0;
   }
 
   .re {
-
     font-size: 109%;
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 5;
+    align-self: end;
+    width: 91%;
   }
-
+}
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) { 
@@ -1015,7 +1000,8 @@ font-size: 52%;
 }
 
 #sc1{
-        padding: 0 2.05em 0 0.05em;
+    padding: 0 1.9em 0 1.5em !important;
+  
          
         
         }
@@ -1025,11 +1011,12 @@ font-size: 52%;
    
     width: 100%;
     margin: 0.5em 0 0.5em 0em;
+    background-size: 23%;
 }
 
 .img11{
 
-    width: 85%;
+    width: 84%;
     height: 6vh;
     padding: 0;
 
@@ -1037,12 +1024,10 @@ font-size: 52%;
 
 .historiaa{
 
-
- font-size: 54%;
- align-items: center;
- height: 66vh !important;
- width: 100%;
-
+    font-size: 53%;
+    align-items: center;
+    height: 96vh !important;
+    width: 100%;
 }
 
 .parra1{
@@ -1057,6 +1042,7 @@ font-size: 52%;
 
     margin: 0 0 0 0;
     width: 55%;
+    height: 23vh;
 }
 
 
@@ -1065,7 +1051,7 @@ font-size: 52%;
     display: flex;
     flex-direction: column;
     padding: 2em 1em 2em 0;
-    height: 60vh;
+    height: 63vh;
     font-size: 58%;
     align-items: center;
     width: 100%;
@@ -1074,9 +1060,10 @@ font-size: 52%;
    
    .parra2{
    
-       width: 86%;
-       font-size: 1.5em;
-       align-content: center;
+    width: 86%;
+    font-size: 1.5em;
+    align-content: center;
+    height: 26vh;
           
    
    }
@@ -1100,7 +1087,7 @@ font-size: 52%;
   font-size: 58%;
   align-items: center;
   width: 100%;
-  height: 50vh;
+  height: 64vh;
 
 }
 
@@ -1117,32 +1104,35 @@ font-size: 52%;
     background-color: #FFFFFF;
     border-radius: 25px;
     width: 70%;
-    height: 34vh;
-    padding: 3em 2em 3em 2em;
+    height: 53vh;
+    padding: 1em 1em 1em 1em;
     line-height: 1.8;
-    margin: 0em 0 0 0em;
+    margin: 0em 0 0 2em;
 }
 
 .nueva{
 
     
    
-   padding: 2em 2em 2em ;
-      height: 40vh;
+
+    height: 56vh;
       width: 100%;
       font-size: 58%;
-margin: 0;
+      margin: 0 0 2em 0;
       align-items: center;
       gap: 0;
 
 }
 
-.pnu{
-    width: 99%;
-    height: 34vh;
+.texnu .pnu{
+  
+    
+    width: 76%;
+    height: 45vh;
     font-size: 1.5em;
     align-content: center;
-            
+    margin: 1em 1em 0 1em;
+    padding: 1em 1em 1em 1em;
 }
 
 .texnu{
@@ -1151,11 +1141,7 @@ margin: 0;
     font-family: mochiy;
 }
 
-.nu1{
 
-
-    
-}
 
 .pnu{
 
@@ -1212,16 +1198,13 @@ font-size: 12px;
     grid-column: 1;
     grid-row: 2;
 
-    width: 36%;
-    height: 7vh;
-
+    width: 59%;
+    height: 6vh;
     border-radius: 25px;
-background-color: gold;
-
-font-size: 23px;
-
-font-family: gabriela;
-margin: 0 0 0 3em;
+    background-color: gold;
+    font-size: 15px;
+    font-family: gabriela;
+    margin: 0 0 0 1em;
 
 
 }
@@ -1239,6 +1222,7 @@ grid-row: 1;
  padding: 3em 0 0 0;
 
 font-family: mochiy;
+width: 50%;
 
 
 }
@@ -1248,20 +1232,15 @@ font-family: mochiy;
 
 .ul2{
 
-grid-column: 2;
-grid-row: 1;
+    grid-column: 2;
+    grid-row: 1;
+    list-style: none;
+    width: 41%;
+    height: 11vh;
+    padding: 5em 0 0 0;
+    justify-self: right;
+} 
 
-list-style: none;
-
-
-width: 28%;
-height: 11vh;
-padding: 5em 1em 0 0;
-justify-self: right;    
-
-
-
-}
 
 .tele img{
 
@@ -1280,20 +1259,16 @@ justify-self: right;
 
     grid-column: 3;
     grid-row: 1;
-
     list-style: none;
-
     line-height: 2;
-
-
-
-display: flex;
-flex-direction: column;
-gap: 1em;
-font-family: gabriela;
-font-size: 12px;
-
-padding: 7em 0 0 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-family: gabriela;
+    font-size: 12px;
+    align-self: center;
+    width: 46%;
+    padding: 7em 0 0 0;
 
 
 
@@ -1304,15 +1279,25 @@ padding: 7em 0 0 1em;
     grid-column: 3;
     grid-row: 2;
     width: 43%;
-    margin: 0 1em 0 0;
-    height: 7vh;
-
+    height: 6vh;
     border-radius: 25px;
-background-color: gold;
+    background-color: gold;
+    font-family: gabriela;
+    align-content: center;
 
-font-size: 23px;
-font-family: gabriela;
-align-content: center;
+}
+
+.mapaa{
+
+    grid-column: 3;
+    grid-row: 2;
+    height: 6vh;
+    border-radius: 25px;
+    background-color: gold;
+    font-size: 14px;
+    font-family: gabriela;
+    align-content: center;
+
 
 }
 
@@ -1355,16 +1340,28 @@ align-content: center;
 .logob{
 
     grid-column: 3;
-    grid-row: 2/3;
-    width: 45%;
+    grid-row: 2;
+    width: 39%;
     height: 15vh;
-    padding: 2em 5em 0 0;
-    justify-self: right;
+    padding: 0em 0em 0 0;
 
 }
 
-}
+.re{
+
+    font-family: gabriela;
+    font-size: 50%;
+    grid-column: 3;
+    grid-row: 1;
+    text-align-last: right;
+    width: 99%;
+   
 }
 
+}
+
+}  
+
+  
 
   
